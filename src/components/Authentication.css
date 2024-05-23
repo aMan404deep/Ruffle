@@ -1,0 +1,125 @@
+/* ::placeholder {
+  color: #303030;
+  opacity: 1; */
+/* } */
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("https://actionpetz.com/wp-content/uploads/2014/04/roccostarplay.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  /* padding-top: 50px; */
+}
+.form-box {
+  /* border: 1px solid rgb(164, 157, 157); */
+  top: 50px;
+  width: 380px;
+  height: 400px;
+  position: relative;
+  margin: 6% auto;
+  border-radius: 20px;
+  /* box-shadow: 9px 4px 20px rgba(255, 255, 255, 0.5); */
+  padding: 5px;
+  background-color: #21212172;
+  /* overflow: hidden; */
+}
+.button-box {
+  width: 220px;
+  margin: 35px auto;
+  position: relative;
+}
+
+.btn {
+  top: 0;
+  position: absolute;
+  width: 80px;
+  height: 110%;
+  padding: 5px;
+  border-bottom: 4px solid rgb(147, 144, 144);
+  transition: ease-in-out 0.5s;
+}
+.toggle-btn {
+  gap: 50px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background: transparent;
+  color: white;
+  font-size: larger;
+  border: 0;
+  outline: none;
+  position: relative;
+}
+
+.social-icons {
+  position: absolute;
+  left: 75px;
+  text-align: center;
+}
+.social-icons img {
+  border-radius: 4px;
+  height: auto;
+  width: 30px;
+  margin: 0 12px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.social-icons img:hover {
+  transform: scale(1, 1);
+}
+
+.input-group {
+  color: white;
+  top: 100px;
+  position: absolute;
+  width: 280px;
+  transition: 0.5s;
+}
+.input-field {
+  color: white;
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border: 0;
+  border-bottom: 1px solid #3a3939;
+  outline: none;
+  background: transparent;
+  box-shadow: 0 3px 2px -2px white;
+}
+.input-field::placeholder {
+  color: white;
+}
+.submit-btn {
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: transparent;
+  color: white;
+  border: 1px solid rgb(176, 167, 167);
+  border-radius: 10px;
+}
+
+.submit-btn:hover {
+  transform: scale(1, 1);
+  background-color: gray;
+  transition: background-color #FF851C;
+}
+.check-box {
+  margin: 30px 10px 30px 0;
+}
+span {
+  color: white;
+  font-size: 12px;
+  bottom: 64px;
+  position: absolute;
+}
+/* #login {
+  left: 50px;
+}
+#signup {
+  left: 450px;
+} */
